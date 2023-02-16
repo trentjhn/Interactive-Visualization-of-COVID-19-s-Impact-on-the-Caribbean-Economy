@@ -1,16 +1,10 @@
 import { Box, useTheme, Typography } from "@mui/material";
 import Header from "../../components/Header";
 import { tokens } from "../../theme";
-//import { mockTransactions } from "../../data/mockData";
-import EmailIcon from "@mui/icons-material/Email";
-import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
-import PersonAddIcon from "@mui/icons-material/PersonAdd";
-import TrafficIcon from "@mui/icons-material/Traffic";
 import LineChart2 from "../../components/LineChart2";
 import BarChart2 from "../../components/BarChart2";
 import PieChart2 from "../../components/PieChart2";
 import GeographyChart from "../../components/GeographyChart";
-import StatBox from "../../components/StatBox";
 
 // * If nivo does not work then reinstall with --legacy-peer-deps
 
@@ -49,13 +43,6 @@ const Dashboard2 = () => {
                         alignItems="center"
                     >
                         <Box>
-                            {/* <Typography 
-                                variant="h5" 
-                                fontWeight="600" 
-                                color={colors.grey[100]}
-                            >
-                                Tourist contribution to GDP
-                            </Typography> */}
                         </Box>
                         <Box>
                         </Box>
@@ -115,14 +102,6 @@ const Dashboard2 = () => {
                         gridRow="span 2"
                         backgroundColor={colors.primary[400]}
                     >
-                        {/* <Typography 
-                            variant="h5" 
-                            fontWeight="600" 
-                            sx={{ p: "30px 30px 0 30px"}}
-                        >
-                            
-                        Share of tourism contribution to Jamaica and St. Kitts & Nevis's GDP 2019-2021
-                        </Typography> */}
                         <Box 
                             height="330px"
                             mt="-10px"

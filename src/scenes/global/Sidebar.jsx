@@ -29,6 +29,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
     )
 }
 
+// sidebar component which is static for all pages
 const Sidebar = () => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
@@ -43,17 +44,21 @@ const Sidebar = () => {
                 "& .pro-icon-wrapper": {
                     backgroundColor: "transparent !important"
                 },
+                //padding for each menu item
                 "& .pro-inner-item": {
                     padding: "5px 35px 5px 20px !important"
                 },
+                //if menu item is hovered over then will change colors
                 "& .pro-inner-item:hover": {
                     color: "#868dfb !important"
                 },
+                //if menu item is active (clicked) then will be highlighted in color
                 "& .pro-menu-item.active": {
                     color: "#6870fa !important"
                 }
             }}
         >
+            {/* When sidebar is collapsed */}
             <ProSidebar collapsed={isCollapsed}>
                 <Menu iconShape="square">
                     <MenuItem

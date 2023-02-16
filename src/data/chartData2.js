@@ -1,5 +1,7 @@
 import { tokens } from "../theme";
 
+// Tourism Data found via Statista.com and is rounded to the nearest hundred thousand
+
 export const LineData = [
     {
         id: "Saint Kitts and Nevis",

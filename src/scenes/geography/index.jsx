@@ -2,7 +2,8 @@ import { Box } from "@mui/material";
 import Header from "../../components/Header";
 import GeographyChart from "../../components/GeographyChart";
 import { tokens } from "../../theme";
-import { useTheme } from "@mui/material";
+
+// geography page which contains country populations 
 
 const Geography = () => {
     const theme = useTheme();

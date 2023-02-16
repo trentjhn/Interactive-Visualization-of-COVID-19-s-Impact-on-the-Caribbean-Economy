@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import Header from "../../components/Header";
 import BarChart from "../../components/BarChart";
 
+// Barchart page which contains country tourist arrival data between 2016-2021
 const Bar = () => {
     return (
         <Box m="20px">

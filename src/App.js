@@ -22,6 +22,7 @@ function App() {
         <Sidebar />
         <main className="content">
           <Topbar />
+          {/* Routes to each page containing respective charts */}
           <Routes>
             <Route path="/" element={<Dashboard />}/>
             <Route path="/dashboard2" element={<Dashboard2 />}/>

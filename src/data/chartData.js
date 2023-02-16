@@ -1,5 +1,7 @@
 import { tokens } from "../theme";
 
+// Tourism Data found via Statista.com and is rounded to the nearest ten thousand
+
 export const LineData = [
     {
         id: "Anguilla",

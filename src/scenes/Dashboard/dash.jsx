@@ -114,20 +114,6 @@ const Dashboard = () => {
                         alignItems="center"
                     >
                         <Box>
-                            {/* <Typography 
-                                variant="h5" 
-                                fontWeight="600" 
-                                color={colors.grey[100]}
-                            >
-                                Number of International Arrivals 2016-2021 (in Millions)
-                            </Typography> */}
-                            {/* <Typography 
-                                variant="h3" 
-                                fontWeight="bold" 
-                                color={colors.greenAccent[500]}
-                            >
-                                $59,342,32
-                            </Typography> */}
                         </Box>
                         <Box>
                         </Box>
